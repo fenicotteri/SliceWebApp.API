@@ -1,0 +1,6 @@
+@SliceWebApp.API_HostAddress = http://localhost:5296
+
+GET {{SliceWebApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
