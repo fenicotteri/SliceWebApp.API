@@ -1,6 +1,6 @@
-﻿namespace SliceWebApp.API.Entities;
+﻿namespace SliceWebApp.API.Contracts;
 
-public class Post
+public class PostResponse
 {
     public Guid Id { get; set; }
 
@@ -9,6 +9,4 @@ public class Post
     public string Content { get; set; } = string.Empty;
 
     public DateTime CreatedOnUtc { get; set; }
-
-    public DateTime? PublishedOnUtc { get; set; }
 }
